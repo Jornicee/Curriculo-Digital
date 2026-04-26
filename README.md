@@ -27,6 +27,7 @@ JavaScript
 
 Baixe ou clone o repositório
 Abra o arquivo index.html no navegador
+
 ✨ Funcionalidades
 
 Exibição de foto de perfil
