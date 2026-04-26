@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white:#FFFFFF;
+    --color-text: #1F1F1F; 
+    --color-gray: #8567df; 
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-text);
+    background: var(--color-text);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    width: 75rem;
+    height: 100%;
+    background: var(--color-white);
+
+    line-height: 1.4rem;
+}
+
+.header-content {
+    background: var(--color-gray);
+    height: 11.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+img {
+    margin: 3.188rem 3.25rem
+}
+
+.header-text-content {
+    margin: 3.188rem 3.25rem;
+    color: var(--color-white);
+    line-height: 1.6rem;
+}
+
+header {
+    width: 75rem;
+    height: 16.875rem;
+}
+
+main {
+    width: 65.75rem;
+    height: 33.125rem;
+    margin: 2.25rem auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-info-content {
+    width: 62.5rem;
+    height: 7.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.main-info-format-list {
+    width: 65.75rem;
+    height: 10.625rem;
+
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.main-info-format-list-item {
+    width: 19.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.main-info-format-list-item ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.main-info-format-list-item li {
+    padding-left: 0.4rem;
+}
+
+button {
+    width: 14rem;
+    height: 3.75rem;
+
+    background: var(--color-gray);
+    border: none;
+    color: var(--color-white);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-2px) scale(1.02);
+    background-color: #8567df;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+footer {
+    width: 75rem;
+    height: 3.75rem;
+    background: var(--color-gray);
+
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
